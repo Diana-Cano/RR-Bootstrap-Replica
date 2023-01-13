@@ -1,9 +1,14 @@
 import './App.css';
+import TopBar from './components/TopBar'
+import Banner from './components/Banner'
+import Stores from './components/Stores'
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello World</h1>
+      <TopBar/>
+      <Banner/>
+      <Stores/>
     </div>
   );
 }
